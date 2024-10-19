@@ -11,7 +11,8 @@ Single Responsibility: The class or Method should focus on one concept or proble
 
 Open / Closed: The component is open for extension but closed for modification. Hint: Interfaces are used commonly for this principle.
 
-Liskov Principle:
+Liskov Substitution Principle: It is based on the concept of "substitutability". Objects of a superclass should be able to be replaced with objects of a subclass without affecting the correctness of the program. Liskov's notion of a behavioural subtype defines a notion of substitutability for objects; that is, if S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program
+"If it looks like a duck, quaks like a duck but needs batteries thne you probably have the wrong abstraction"
 
 Interface Seggregation: The principle which enforces to build small and focused interfaces that doesn't force the implementer of the interface to implement unneccesary implementations/behavious that they do not need.
 
