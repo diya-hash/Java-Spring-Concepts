@@ -20,4 +20,5 @@ Depndency Inversion (DI): High level modules should not depend on low level modu
 
 Reference:
 [1] https://www.freecodecamp.org/news/introduction-to-solid-principles/
+
 [2] https://en.wikipedia.org/wiki/Liskov_substitution_principle
