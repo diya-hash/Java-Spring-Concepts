@@ -19,5 +19,7 @@ Interface Seggregation: The principle which enforces to build small and focused 
 Depndency Inversion (DI): High level modules should not depend on low level modules. Both the modules should depend on abstractions and not on concrete implementaThis is to enforce loose coupling and abstraction.
 
 Reference:
+
 [1] https://www.freecodecamp.org/news/introduction-to-solid-principles/
+
 [2] https://en.wikipedia.org/wiki/Liskov_substitution_principle
