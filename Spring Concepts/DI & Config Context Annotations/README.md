@@ -7,13 +7,13 @@ Examples:
 
 1. @Autowired is used to mark dependencies which Spring will resolve and inject. Can be used with a constructor, setter, or field injection.
 
-2. @Bean marks a factory method which instantiates a Spring Bean (object). Note, that all methods annotated with @Bean must be in @Configuration classes.
+2. @Bean marks a factory method which instantiates a Spring Bean (object) that will be managed by the Spring Context. This will enable classses to call the @Bean annotated method using the AppplicationContext from the Spring Container. Note, that all methods annotated with @Bean must be in @Configuration classes.
 
 3. @Value is used for injecting property values into beans. It’s compatible with constructor, setter, and field injection.
 
 4. @DependsOn is required when the dependencies are implicit. We can use @DependsOn on the dependent class specifying the names of the dependency beans.
 
-5. @Lazy is used to initialize our bean lazily. By default, Spring creates all singleton beans eagerly at the startup/bootstrapping of the application context.However, there are cases when we need to create a bean when we request it, not at application startup.
+5. @Lazy is used to initialize our bean lazily. By default, Spring creates all singleton beans eagerly at the startup/bootstrapping of the application context.However, there are cases when we need to create a bean when we request it, not at application startup:
 
 1) a @Bean annotated bean factory method, to delay the method call (hence the bean creation)
 
