@@ -1,5 +1,4 @@
 Dependency Injection Annotations
-What are Dependency Injection(DI) annotations:
 
 - To leverage the capabilities of Spring DI engine using the annotations in the org.springframework.beans.factory.annotation and org.springframework.context.annotation packages.
 
