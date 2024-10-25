@@ -27,3 +27,7 @@ The builder pattern allows us to construct complex objects step by step, rather 
 Another possible use for private constructors is to prevent subclassing of a class. If we tried to create such as subclass, it would be unable to call the super constructor. However, it’s important to note that we’d normally make a class final to prevent subclassing rather than using a private constructor.
 
 Find all the private constructor examples in the "Pivate Constructor Uses" folder (Constructors -> Private Constructor Uses)
+
+
+Reference:
+[1] https://www.baeldung.com/java-private-constructors
