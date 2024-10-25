@@ -1,8 +1,4 @@
-ChatGPT said:
-ChatGPT
-Object-oriented programming (OOP) is a programming paradigm that uses "objects" to design applications and programs. Here are the core concepts of OOP:
-
-Classes and Objects:
+Core concepts of OOP
 
 Class: A blueprint or template for creating objects. It defines properties (attributes) and methods (functions).
 
