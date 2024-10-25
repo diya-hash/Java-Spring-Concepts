@@ -35,3 +35,6 @@ Increased Flexibility: We can make the variables of the class read-only or write
 Reusability: Encapsulation also improves the re-usability and is easy to change with new requirements.
 Testing code is easy: Encapsulated code is easy to test for unit testing.
 Freedom to programmer in implementing the details of the system: This is one of the major advantage of encapsulation that it gives the programmer freedom in implementing the details of a system. The only constraint on the programmer is to maintain the abstract interface that outsiders see.
+
+Reference:
+[1] https://www.geeksforgeeks.org/encapsulation-in-java/

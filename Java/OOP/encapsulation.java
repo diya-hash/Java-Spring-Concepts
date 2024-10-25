@@ -31,3 +31,4 @@ public class Main {
         System.out.println("Age: " + person.getAge());
     }
 }
+// Reference: https://www.geeksforgeeks.org/encapsulation-in-java/
