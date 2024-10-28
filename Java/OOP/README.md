@@ -8,6 +8,15 @@ Encapsulation:
 The bundling of data (attributes) and methods (functions) that operate on the data within a single unit or class. It restricts direct access to some components, which helps prevent unintended interference and misuse.
 
 Abstraction:
+Data abstraction is the process of hiding certain details and showing only essential information to the user.
+Abstraction can be achieved with either abstract classes or interfaces (which you will learn more about in the next chapter).
+
+The abstract keyword is a non-access modifier, used for classes and methods:
+
+Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+
+Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+An abstract class can have both abstract and regular methods.
 The process of simplifying complex systems by modeling classes based on essential characteristics while hiding unnecessary details. This allows programmers to focus on interactions at a high level.
 
 Inheritance:
@@ -25,10 +34,15 @@ Association: A relationship between two classes where one class uses or interact
 Aggregation: A special form of association representing a "whole-part" relationship, where the part can exist independently of the whole.
 
 ############ Advantages and Disadvantages of Encapsulation ###########
+
 Advantages of Encapsulation
+
 Data Hiding: it is a way of restricting the access of our data members by hiding the implementation details. Encapsulation also provides a way for data hiding. The user will have no idea about the inner implementation of the class. It will not be visible to the user how the class is storing values in the variables. The user will only know that we are passing the values to a setter method and variables are getting initialized with that value.
+
 Increased Flexibility: We can make the variables of the class read-only or write-only depending on our requirements. If we wish to make the variables read-only then we have to omit the setter methods like setName(), setAge(), etc. from the above program or if we wish to make the variables write-only then we have to omit the get methods like getName(), getAge(), etc. from the above program
+
 Reusability: Encapsulation also improves the re-usability and is easy to change with new requirements.
+
 Testing code is easy: Encapsulated code is easy to test for unit testing.
 Freedom to programmer in implementing the details of the system: This is one of the major advantage of encapsulation that it gives the programmer freedom in implementing the details of a system. The only constraint on the programmer is to maintain the abstract interface that outsiders see.
 
