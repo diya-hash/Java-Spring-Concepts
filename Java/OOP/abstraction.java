@@ -23,3 +23,4 @@ class Main {
     myPig.sleep();
   }
 }
+//Reference: https://www.w3schools.com/java/java_abstract.asp

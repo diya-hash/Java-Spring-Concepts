@@ -19,3 +19,4 @@ class Car extends Vehicle {
     System.out.println(myCar.brand + " " + myCar.modelName);
   }
 }
+//Reference: https://www.w3schools.com/java/java_inheritance.asp
