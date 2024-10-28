@@ -28,6 +28,9 @@ To inherit from a class, use the extends keyword.
 A mechanism where a new class (derived or child class) inherits properties and behaviors (methods) from an existing class (base or parent class). This promotes code reusability and establishes a hierarchical relationship between classes.
 
 Polymorphism:
+Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+Like we specified in the previous chapter; Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.
 The ability to present the same interface for different underlying forms (data types). It allows methods to do different things based on the object it is acting upon. This can be achieved through method overriding (in subclasses) and method overloading (same method name with different parameters).
 
 Composition:
