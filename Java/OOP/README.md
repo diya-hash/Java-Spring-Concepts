@@ -20,6 +20,11 @@ An abstract class can have both abstract and regular methods.
 The process of simplifying complex systems by modeling classes based on essential characteristics while hiding unnecessary details. This allows programmers to focus on interactions at a high level.
 
 Inheritance:
+In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
+
+subclass (child) - the class that inherits from another class
+superclass (parent) - the class being inherited from
+To inherit from a class, use the extends keyword.
 A mechanism where a new class (derived or child class) inherits properties and behaviors (methods) from an existing class (base or parent class). This promotes code reusability and establishes a hierarchical relationship between classes.
 
 Polymorphism:
