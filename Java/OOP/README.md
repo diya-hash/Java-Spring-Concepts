@@ -37,7 +37,7 @@ Composition:
 A design principle where a class is composed of one or more objects from other classes. It allows for building complex types by combining simpler ones, enhancing modularity and flexibility.
 Aggregation and Association:
 
-Association: A relationship between two classes where one class uses or interacts with another.
+Association: An association can be considered a generic term to indicate the relationship between two independent classes; the relationship may be one-to-one, one-to-many, or many-to-many, but it need not indicate ownership.
 
 Aggregation: A special form of association representing a "whole-part" relationship, where the part can exist independently of the whole.
 
