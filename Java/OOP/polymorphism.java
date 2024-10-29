@@ -26,3 +26,4 @@ class Main {
     myDog.animalSound();
   }
 }
+//Reference: https://www.w3schools.com/java/java_polymorphism.asp
