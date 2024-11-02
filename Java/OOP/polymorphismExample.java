@@ -16,14 +16,14 @@ class Dog extends Animal {
   }
 }
 
-class Main {
+class polymorphismExample {
   public static void main(String[] args) {
-    Animal myAnimal = new Animal();  // Create a Animal object
-    Animal myPig = new Pig();  // Create a Pig object
-    Animal myDog = new Dog();  // Create a Dog object
+    Animal myAnimal = new Animal(); // Create a Animal object
+    Animal myPig = new Pig(); // Create a Pig object
+    Animal myDog = new Dog(); // Create a Dog object
     myAnimal.animalSound();
     myPig.animalSound();
     myDog.animalSound();
   }
 }
-//Reference: https://www.w3schools.com/java/java_polymorphism.asp
+// Reference: https://www.w3schools.com/java/java_polymorphism.asp
