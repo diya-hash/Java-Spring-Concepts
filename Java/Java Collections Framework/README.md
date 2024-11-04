@@ -45,3 +45,6 @@ interchangeable.
 Performance: Well-optimized implementations for various use cases.
 
 Rich Functionality: Offers many methods for manipulating collections.
+
+Reference:
+[1] https://www.geeksforgeeks.org/priority-queue-class-in-java/
