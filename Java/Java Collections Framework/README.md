@@ -60,3 +60,4 @@ Advanages of immutable classes in java:
 
 Reference:
 [1] https://www.geeksforgeeks.org/priority-queue-class-in-java/
+[2] https://www.baeldung.com/java-mutable-vs-immutable-objects
