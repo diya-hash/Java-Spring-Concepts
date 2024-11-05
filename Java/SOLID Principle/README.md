@@ -16,7 +16,7 @@ Liskov Substitution Principle: It is based on the concept of "substitutability".
 
 Interface Seggregation: The principle which enforces to build small and focused interfaces that doesn't force the implementer of the interface to implement unneccesary implementations/behaviours that they do not need.
 
-Dependency Inversion (DI): High level modules should not depend on low level modules. Both the modules should depend on abstractions and not on concrete implementans. This is to enforce loose coupling and abstraction.
+Dependency Inversion (DI): High level modules should not depend on low level modules. Both the modules should depend on abstractions and not on concrete implementations. This is to enforce loose coupling and abstraction.
 
 Reference:
 
