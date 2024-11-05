@@ -46,5 +46,17 @@ Performance: Well-optimized implementations for various use cases.
 
 Rich Functionality: Offers many methods for manipulating collections.
 
+# Difference between mutable and immutable collections
+
+- Mutable means it can change and immutable means it cannot change. An object is considered immutable if itd state changes after it is constructed. Once an instantiated then its values and properties remain constant throughout. Examples of built-in immutable classes in java: String class, Integer class, etc.
+
+Advanages of immutable classes in java:
+
+1. Thread safety:Since the objects cannot change so, it can be shared among muliple threads without the need for explicit synchronization. Simplifies concurrent programming and race conditions.
+
+2. Predictability and Debugging: The constant state of immutable objects makes code more predictable. Once created, an immutable object’s values remain unchanged, simplifying reasoning about code behavior.
+
+3. Facilitates Caching and Optimization: Immutable objects can be easily cached and reused. Once created, an immutable object’s state does not change, allowing for efficient caching strategies.
+
 Reference:
 [1] https://www.geeksforgeeks.org/priority-queue-class-in-java/
