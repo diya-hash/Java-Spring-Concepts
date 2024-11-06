@@ -17,7 +17,7 @@ HashMap: A hash table-based implementation.
 TreeMap: A red-black tree-based implementation that orders keys.
 Queue: A collection designed for holding elements prior to processing. Implementations include:
 
-LinkedList: Can be used as a queue.
+LinkedList: Can be used as a queue. Almost identical to ArrayList.
 
 PriorityQueue: Orders elements based on their natural ordering or a specified comparator.
 
