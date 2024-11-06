@@ -6,16 +6,24 @@ Collection: The root interface for the collection hierarchy. It represents a gro
 List: An ordered collection (also known as a sequence). It allows duplicate elements and provides positional access. Common implementations include:
 
 ArrayList: Resizable array implementation.
+
 LinkedList: Doubly-linked list implementation.
+
 Set: A collection that does not allow duplicate elements. Common implementations include:
 
 HashSet: Uses a hash table for storage.
+
 TreeSet: Implements the SortedSet interface and uses a red-black tree.
+
 Map: An object that maps keys to values, where each key is unique. Common implementations include:
 
 HashMap: A hash table-based implementation.
+
 TreeMap: A red-black tree-based implementation that orders keys.
-Queue: A collection designed for holding elements prior to processing. Implementations include:
+
+Queue: A collection designed for holding elements prior to processing.
+
+Implementations include:
 
 LinkedList: Can be used as a queue. Almost identical to ArrayList.
 
